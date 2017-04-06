@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\dix">
+      <UniqueIdentifier>{bee348a7-a113-4f9d-bb3d-cf0d7d8c18e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dix">
+      <UniqueIdentifier>{c93efc15-c989-474b-ba46-e1a91906be2e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dix\BaseMesh.h">
+      <Filter>Header Files\dix</Filter>
+    </ClInclude>
+    <ClInclude Include="dix\BaseObject.h">
+      <Filter>Header Files\dix</Filter>
+    </ClInclude>
+    <ClInclude Include="dix\Camera.h">
+      <Filter>Header Files\dix</Filter>
+    </ClInclude>
+    <ClInclude Include="dix\FileLoader.h">
+      <Filter>Header Files\dix</Filter>
+    </ClInclude>
+    <ClInclude Include="dix\Framebuffer.h">
+      <Filter>Header Files\dix</Filter>
+    </ClInclude>
+    <ClInclude Include="dix\Rectangle.h">
+      <Filter>Header Files\dix</Filter>
+    </ClInclude>
+    <ClInclude Include="dix\Texture.h">
+      <Filter>Header Files\dix</Filter>
+    </ClInclude>
+    <ClInclude Include="dix\Vector2.h">
+      <Filter>Header Files\dix</Filter>
+    </ClInclude>
+    <ClInclude Include="dix\Vector3.h">
+      <Filter>Header Files\dix</Filter>
+    </ClInclude>
+    <ClInclude Include="dix\Window.h">
+      <Filter>Header Files\dix</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PerfectlyGenericObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaneMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TriangleMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TriangleObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dix\Shader.h">
+      <Filter>Header Files\dix</Filter>
+    </ClInclude>
+    <ClInclude Include="dix\ShaderProgram.h">
+      <Filter>Header Files\dix</Filter>
+    </ClInclude>
+    <ClInclude Include="dix\UniformType.h">
+      <Filter>Header Files\dix</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dix\BaseMesh.cpp">
+      <Filter>Source Files\dix</Filter>
+    </ClCompile>
+    <ClCompile Include="dix\BaseObject.cpp">
+      <Filter>Source Files\dix</Filter>
+    </ClCompile>
+    <ClCompile Include="dix\Camera.cpp">
+      <Filter>Source Files\dix</Filter>
+    </ClCompile>
+    <ClCompile Include="dix\Framebuffer.cpp">
+      <Filter>Source Files\dix</Filter>
+    </ClCompile>
+    <ClCompile Include="dix\Texture.cpp">
+      <Filter>Source Files\dix</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PerfectlyGenericObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaneMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TriangleMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TriangleObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dix\Window.cpp">
+      <Filter>Source Files\dix</Filter>
+    </ClCompile>
+    <ClCompile Include="dix\Shader.cpp">
+      <Filter>Source Files\dix</Filter>
+    </ClCompile>
+    <ClCompile Include="dix\ShaderProgram.cpp">
+      <Filter>Source Files\dix</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
